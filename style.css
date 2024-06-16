@@ -1,0 +1,52 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+    background: url(images/laptop.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #FFFDFD;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+hr {
+    border: 3px solid #FF9135;
+    max-width: 65px;
+    margin: 20px auto;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buffer {
+    height: 100px;
+}
+
+.btn {
+    border-radius: 300px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    background-color: #FF9135;
+    border-color: #FF9135;
+}
+
+.btn-primary:hover {
+    background-color: #E16600;
+    border-color: #E16600;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1em 2em;
+}
